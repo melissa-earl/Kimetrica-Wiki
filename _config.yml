@@ -32,6 +32,7 @@ categories_path: categories.html
 tags_path: tags.html
 
 # set it as url of an image
+avatar: <img src="/static/images/logo.30efce685dc1.png" alt="">
 # sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
 
 BASE_PATH:
