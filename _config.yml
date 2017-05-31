@@ -1,17 +1,40 @@
-# Site settings
-title: Kimetrica Wiki
-email: melissa.earl@kimetrica.com
-description: > # this means to ignore newlines until "baseurl:"
- For all your Kimetrica code dumping needs!
-baseurl: "/Kimetrica-Wiki" 
-url: "localhost:4000"
-github_username:  melissa-earl
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-# Build settings
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
 markdown: kramdown
-theme: minima
+disqus: dbyll
+google_analytics: dbyll
+title: Kimetrica
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: dbyll
+
+description: For all your code dumping needs!
+author:
+  name: Kimetrica
+  email: melissa.earl@kimetrica.com
+  github: melissa-earl
+  twitter: dbtek
+  pinterest: asd123
+  linkedin: asd123
+  bio: For all your code dumping needs!
+  email_md5: 726351295ec82e145928582f595aa3aa
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
 gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+  - jekyll-paginate
