@@ -10,7 +10,6 @@ google_analytics: dbyll
 title: Kimetrica
 
 defaults:
-images: Screen Shot 2017-05-31 at 1.35.08 PM
     scope:
       path: "" # empty string for all files
     values:
