@@ -9,7 +9,8 @@ fullview: true
 In your config file change these settings
 
 {% highlight yaml %}
-title: dbyll
+title: Kimetrica
+avatar: <img src="/static/images/logo.30efce685dc1.png" alt="">
 author:  
   name: Kimetrica 
   email: melissa.earl@kimetrica.com  

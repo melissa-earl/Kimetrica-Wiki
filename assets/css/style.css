@@ -2,20 +2,15 @@
 
 body{
 	color: #00a7df;
-}
-
 .sidebar {
 	position: fixed;
 	top: 0px;
 	padding-top: 10%;
 	background-color: #00a7df;
 	color: #fff;
-}
-
-.sidebar-header {
+.sidebar-header 
 	text-align: center;
 	margin-bottom: 10px;
-}
 .sidebar-header .title{
 	letter-spacing: 3px;
 	text-transform: uppercase;
