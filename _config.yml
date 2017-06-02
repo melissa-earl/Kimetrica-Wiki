@@ -8,7 +8,7 @@ markdown: kramdown
 disqus: dbyll
 google_analytics: dbyll
 title: Kimetrica
-
+baseurl: https://github.com/dbtek/dbyll
 defaults:
     scope:
       path: "" # empty string for all files
